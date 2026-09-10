@@ -1,0 +1,43 @@
+title: Frédéric Ouedraogo
+tagline: Biogéochimiste des contaminants organiques en agrosystèmes tropicaux
+description: >-
+  Site scientifique de Frédéric Ouedraogo, chercheur en biogéochimie des
+  contaminants organiques traces (CTO) en agrosystèmes tropicaux — andosols,
+  dynamiques multi-contaminants, approches source-to-risque.
+lang: fr
+url: "https://ouedraogo-frederic.github.io"
+baseurl: ""
+
+author:
+  name: Frédéric Ouedraogo
+  affiliation: CIRAD
+
+# Pas de thème distant : mise en page personnalisée dans _layouts/ et _includes/
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

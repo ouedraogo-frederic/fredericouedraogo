@@ -8,7 +8,7 @@ permalink: /contact/
 
 <p class="lede">N'hésite pas à me contacter pour toute question sur mes travaux, une collaboration ou une opportunité d'encadrement.</p>
 
-- **E-mail** : [à compléter]
+- **E-mail** : frederic.ouedraogo@cirad.fr
 - **CIRAD** : [lien vers la fiche institutionnelle, à compléter]
 - **GitHub** : [github.com/ouedraogo-frederic](https://github.com/ouedraogo-frederic)
 - **LinkedIn** : [à compléter]
